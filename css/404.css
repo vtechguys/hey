@@ -1,0 +1,30 @@
+.bg404{
+    
+    /* background: linear-gradient(45deg, #000000, #101010,#202020,#303030,#404040,#505050,#606060,#696969,#787878,#707070,#686868,#585858,#484848,#383838,#282828,#181818,#080808); */
+
+    margin-top:200px;
+    padding-top:200px;
+}
+#msg404{
+text-align: center;
+    font-size:20px;
+}
+#goBack{
+    float:left;
+    color:white;
+    font-size:30px;
+}
+#HomePage{
+    float:right;
+    color:white;
+    font-size:30px;
+}
+#HomePage span{
+    font-size:20px;
+
+}
+.instrucion404Page::after{
+    content:"";
+    clear: both;
+    display: block;
+}

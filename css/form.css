@@ -1,0 +1,27 @@
+#footerApp{
+    font-size:16px;
+  }
+  
+  
+  #login-submit{
+  color:#00E29F;
+  
+  border:1px solid #00E29F; }
+  #login-submit:hover{
+  color:black;
+  background-color: #00E29F;
+  
+  border:1px solid #00E29F; }
+  #register-submit{
+    border:1px solid #00E29F;
+    color:#00E29F;
+   
+  
+  }
+  #register-submit:hover{
+  color:black;
+  background-color: #00E29F;
+  }
+  #matchPaswordStatus{
+    color:black;
+  }
