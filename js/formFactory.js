@@ -14,6 +14,23 @@ app.factory("formFactory",function(){
             return true;
         }
         
+        },
+        passwordStrengthAcceptance(password){
+         var strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*])(?=.{8,20})");
+            if(password===strongRegex){
+                return 1;
+            }
+            else
+                return 0;
+//             if(password===mediumRegex){
+//                 return 1;
+//             }
+//             if(password===weakRegex){
+//                 return    
+//             }
+            
+            
+            
         }
     }
     return object;
