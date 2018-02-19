@@ -93,7 +93,7 @@
            <div class="formSignIN-UP">
                <div class="row">
                  <div class="col-12">
-                   <form id="login-form" ng-submit="processLogInData()" role="form" style="display: block;">
+                   <form id="login-form"  role="form" style="display: block;">
                      
                      <div class="form-group">
                         <input type="email" name="email" id="emailLogIn" tabindex="1" class="form-control" placeholder="Email" ng-model="emailLogIn">
@@ -105,7 +105,7 @@
                      <div class="form-group">
                        <div class="row">
                          <div class="col-12">
-                           <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Sign In">
+                           <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Sign In" ng-click="processLogInData()">
                          </div>
                        </div>
                      </div>
