@@ -10,7 +10,7 @@ app.controller("mainController",function($scope,$http){
     // }
 
 
-
+console.log("inside process data $email is",($scope.emailLogIn),"password is ",($scope.passwordLogIn),"running controller");
     $scope.processLogInData=()=>{
         console.log("inside process data $email is",($scope.emailLogIn),"password is ",($scope.passwordLogIn));
         $http.post("signin.php",{
