@@ -16,11 +16,7 @@ app.controller("mainController",function($scope,$http){
         $http.post("signin.php",{
             'email':$scope.emailLogIn,
             'password':$scope.passwordLogIn
-        }).success(function(data){
-            console.log("data sent successfully",data,"data");
-        }).catch(function(){
-            console.log("error in sending data");
-        })
+        }).then(functtion (data){console.log(data);}).catch(function (error){console.log("error occured",error);});
     }
 
 })
